@@ -1,9 +1,7 @@
 import ftplib
 from ftplib import FTP
 import pandas as pd
-import io, os, time, pyodbc, sys
-from datetime import datetime  
-from datetime import timedelta 
+import os, pyodbc
 
 from init import initial
 start_time = time.time()
